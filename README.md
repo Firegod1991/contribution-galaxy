@@ -1,6 +1,12 @@
 # Contribution Galaxy
 
-Your GitHub year, drawn as space. Two animated pictures, redrawn every day from your real contribution calendar.
+Your GitHub year, drawn three ways. Animated pictures, redrawn every day from your real contribution calendar.
+
+## The snake
+
+![A snake crawling the contribution grid, eating every lit square](dist/snake.svg)
+
+The old game of snake on your contribution grid. The snake crawls along the grid, eats every square you lit, nearest first, grows a piece with each one, then leaves and the board lights up again.
 
 ## The galaxy
 
@@ -24,6 +30,7 @@ The contribution grid as a night sky. A ship flies from star to star in the orde
 ```markdown
 ![My galaxy](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/galaxy.svg)
 ![My star chart](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/starchart.svg)
+![My snake](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/snake.svg)
 ```
 
 Nothing to install and no secret to add: the workflow reads your public calendar with the token every run already has, and commits the pictures under your own name.
@@ -35,6 +42,7 @@ Python 3.9 or newer, nothing else.
 ```sh
 GITHUB_TOKEN=your_token python3 galaxy.py --user YOUR_NAME --out galaxy.svg
 GITHUB_TOKEN=your_token python3 starchart.py --user YOUR_NAME --out starchart.svg
+GITHUB_TOKEN=your_token python3 snake.py --user YOUR_NAME --out snake.svg
 ```
 
 The pictures are plain SVG with no script in them, so they play inside a README. People who ask their system for less motion get a still picture.
