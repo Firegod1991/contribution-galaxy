@@ -1,6 +1,12 @@
 # Contribution Galaxy
 
-Your GitHub year, drawn three ways. Animated pictures, redrawn every day from your real contribution calendar.
+Your GitHub year, drawn four ways. Animated pictures, redrawn every day from your real contribution calendar.
+
+## The comet sweep
+
+![A burning comet flying the contribution grid through deep space, swallowing every lit square](dist/comet.svg)
+
+A comet flies your contribution grid through deep space. Every square you lit is a charged cell, brighter the more you shipped that day. The comet swallows them nearest first, each one going off in a ring of fire, and its tail grows longer with every cell it takes. Then it burns off the edge of the board and the next pass begins.
 
 ## The snake
 
@@ -31,6 +37,7 @@ The contribution grid as a night sky. A ship flies from star to star in the orde
 ![My galaxy](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/galaxy.svg)
 ![My star chart](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/starchart.svg)
 ![My snake](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/snake.svg)
+![My comet sweep](https://raw.githubusercontent.com/YOUR_NAME/contribution-galaxy/main/dist/comet.svg)
 ```
 
 Nothing to install and no secret to add: the workflow reads your public calendar with the token every run already has, and commits the pictures under your own name.
@@ -43,6 +50,7 @@ Python 3.9 or newer, nothing else.
 GITHUB_TOKEN=your_token python3 galaxy.py --user YOUR_NAME --out galaxy.svg
 GITHUB_TOKEN=your_token python3 starchart.py --user YOUR_NAME --out starchart.svg
 GITHUB_TOKEN=your_token python3 snake.py --user YOUR_NAME --out snake.svg
+GITHUB_TOKEN=your_token python3 comet.py --user YOUR_NAME --out comet.svg
 ```
 
 The pictures are plain SVG with no script in them, so they play inside a README. People who ask their system for less motion get a still picture.
