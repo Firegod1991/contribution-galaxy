@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 875 225" width="875" height="225" role="img" aria-labelledby="t d">
 <title id="t">Firegod1991: a year of contributions swept up by a comet</title>
-<desc id="d">146 contributions on 10 days. A burning comet flies the contribution grid and swallows every lit square.</desc>
+<desc id="d">159 contributions on 10 days. A burning comet flies the contribution grid and swallows every lit square.</desc>
 <defs><radialGradient id="bg" cx="0.72" cy="0.2" r="1"><stop offset="0" stop-color="#160a1c"/><stop offset="0.45" stop-color="#05060d"/><stop offset="1" stop-color="#000000"/></radialGradient><radialGradient id="neb" r="0.5"><stop offset="0" stop-color="#ff5a1f" stop-opacity="0.16"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></radialGradient><radialGradient id="neb2" r="0.5"><stop offset="0" stop-color="#3a6bff" stop-opacity="0.14"/><stop offset="1" stop-color="#3a6bff" stop-opacity="0"/></radialGradient><linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9f1c" stop-opacity="0"/><stop offset="1" stop-color="#ff9f1c" stop-opacity="0.07"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="card"><rect width="875" height="225" rx="12"/></clipPath></defs>
 <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -43,7 +43,7 @@
     @keyframes be51_2 { 0%, 54.02% { transform: scale(0.2); opacity: 0; } 54.23% { transform: scale(0.6); opacity: 1; } 57.53%, 100% { transform: scale(2.8); opacity: 0; } }
     @keyframes e52_1 { 0%, 57.46% { fill: #9be7ff; } 57.67% { fill: #ffffff; } 58.37%, 99.00% { fill: #0b0f19; } 100% { fill: #9be7ff; } }
     @keyframes be52_1 { 0%, 57.46% { transform: scale(0.2); opacity: 0; } 57.67% { transform: scale(0.6); opacity: 1; } 60.97%, 100% { transform: scale(2.8); opacity: 0; } }
-    @keyframes e52_2 { 0%, 58.31% { fill: #2a7fc0; } 58.52% { fill: #ffffff; } 59.22%, 99.00% { fill: #0b0f19; } 100% { fill: #2a7fc0; } }
+    @keyframes e52_2 { 0%, 58.31% { fill: #9be7ff; } 58.52% { fill: #ffffff; } 59.22%, 99.00% { fill: #0b0f19; } 100% { fill: #9be7ff; } }
     @keyframes be52_2 { 0%, 58.31% { transform: scale(0.2); opacity: 0; } 58.52% { transform: scale(0.6); opacity: 1; } 61.82%, 100% { transform: scale(2.8); opacity: 0; } }
     @keyframes g15 { 0%, 57.14% { opacity: 0; } 57.64%, 100% { opacity: 1; } }
     @keyframes g14 { 0%, 52.42% { opacity: 0; } 52.92%, 100% { opacity: 1; } }
@@ -452,8 +452,9 @@
 <rect x="820" y="58" width="11" height="11" rx="2" fill="#0b0f19" stroke="#16203a" stroke-width="0.6"/>
 <rect x="820" y="73" width="11" height="11" rx="2" fill="#9be7ff" filter="url(#glow)" style="animation: e52_1 8.50s linear infinite"/>
 <circle class="boom" cx="825.5" cy="78.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_1 8.50s linear infinite"/>
-<rect x="820" y="88" width="11" height="11" rx="2" fill="#2a7fc0" filter="url(#glow)" style="animation: e52_2 8.50s linear infinite"/>
+<rect x="820" y="88" width="11" height="11" rx="2" fill="#9be7ff" filter="url(#glow)" style="animation: e52_2 8.50s linear infinite"/>
 <circle class="boom" cx="825.5" cy="93.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_2 8.50s linear infinite"/>
+<rect x="820" y="103" width="11" height="11" rx="2" fill="#0b0f19" stroke="#16203a" stroke-width="0.6"/>
 <g class="seg" style="animation-delay: 0.538s; animation: crawl 8.50s linear infinite both, g15 8.50s linear infinite both; animation-delay: 0.538s"><circle r="1.2" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
 <g class="seg" style="animation-delay: 0.502s; animation: crawl 8.50s linear infinite both, g14 8.50s linear infinite both; animation-delay: 0.502s"><circle r="1.5" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
 <g class="seg" style="animation-delay: 0.466s; animation: crawl 8.50s linear infinite both, g13 8.50s linear infinite both; animation-delay: 0.466s"><circle r="1.9" fill="#8f1b1f" opacity="0.25" filter="url(#glow)"/></g>
@@ -471,7 +472,7 @@
 <g class="seg" style="animation-delay: 0.036s"><circle r="5.9" fill="#fffbe8" opacity="0.94" filter="url(#glow)"/></g>
 <g class="seg" style="animation-delay: 0.000s"><circle r="6.2" fill="#fffbe8" opacity="1.00" filter="url(#glow)"/><circle r="11" fill="#ff9f1c" opacity="0.22"/><circle r="3.2" fill="#ffffff"/></g>
 <text class="k" x="835" y="189" text-anchor="end">ONE YEAR  //  EVERY CELL A DAY I SHIPPED</text>
-<text class="k" x="40" y="189">CONTRIBUTIONS</text><text class="v" x="40" y="208">146</text>
+<text class="k" x="40" y="189">CONTRIBUTIONS</text><text class="v" x="40" y="208">159</text>
 <text class="k" x="158" y="189">TARGETS</text><text class="v" x="158" y="208">10</text>
 <text class="k" x="276" y="189">LONGEST RUN</text><text class="v" x="276" y="208">4 d</text>
 <text class="k" x="394" y="189">CURRENT RUN</text><text class="v" x="394" y="208">2 d</text>
