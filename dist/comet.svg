@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 875 225" width="875" height="225" role="img" aria-labelledby="t d">
 <title id="t">Firegod1991: a year of contributions swept up by a comet</title>
-<desc id="d">172 contributions on 11 days. A burning comet flies the contribution grid and swallows every lit square.</desc>
+<desc id="d">174 contributions on 13 days. A burning comet flies the contribution grid and swallows every lit square.</desc>
 <defs><radialGradient id="bg" cx="0.72" cy="0.2" r="1"><stop offset="0" stop-color="#160a1c"/><stop offset="0.45" stop-color="#05060d"/><stop offset="1" stop-color="#000000"/></radialGradient><radialGradient id="neb" r="0.5"><stop offset="0" stop-color="#ff5a1f" stop-opacity="0.16"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></radialGradient><radialGradient id="neb2" r="0.5"><stop offset="0" stop-color="#3a6bff" stop-opacity="0.14"/><stop offset="1" stop-color="#3a6bff" stop-opacity="0"/></radialGradient><linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9f1c" stop-opacity="0"/><stop offset="1" stop-color="#ff9f1c" stop-opacity="0.07"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="card"><rect width="875" height="225" rx="12"/></clipPath></defs>
 <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -19,7 +19,7 @@
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.72; } }
     .scan { animation: scan 8.50s linear infinite; }
     @keyframes scan { 0% { transform: translateY(0); } 100% { transform: translateY(225px); } }
-    .seg { offset-path: path('M0.5 108.5 L330.5 108.5 L330.5 138.5 L660.5 138.5 L660.5 78.5 L660.5 63.5 L705.5 63.5 L705.5 93.5 L810.5 93.5 L810.5 78.5 L810.5 63.5 L825.5 63.5 L825.5 78.5 L825.5 93.5 L825.5 108.5 L795.5 108.5 L795.5 153.5 L920.0 153.5'); offset-rotate: 0deg; animation: crawl 8.50s linear infinite both; }
+    .seg { offset-path: path('M0.5 108.5 L330.5 108.5 L330.5 138.5 L660.5 138.5 L660.5 78.5 L660.5 63.5 L705.5 63.5 L705.5 93.5 L810.5 93.5 L810.5 78.5 L810.5 63.5 L825.5 63.5 L825.5 78.5 L825.5 93.5 L825.5 108.5 L825.5 123.5 L825.5 138.5 L795.5 138.5 L795.5 153.5 L920.0 153.5'); offset-rotate: 0deg; animation: crawl 8.50s linear infinite both; }
     @keyframes crawl { 0% { offset-distance: 0%; } 70.59%, 100% { offset-distance: 100%; } }
     .blink { animation: blink 1.4s steps(2, start) infinite; }
     @keyframes blink { to { visibility: hidden; } }
@@ -47,7 +47,13 @@
     @keyframes be52_2 { 0%, 58.31% { transform: scale(0.2); opacity: 0; } 58.52% { transform: scale(0.6); opacity: 1; } 61.82%, 100% { transform: scale(2.8); opacity: 0; } }
     @keyframes e52_3 { 0%, 59.17% { fill: #2a7fc0; } 59.38% { fill: #ffffff; } 60.08%, 99.00% { fill: #0b0f19; } 100% { fill: #2a7fc0; } }
     @keyframes be52_3 { 0%, 59.17% { transform: scale(0.2); opacity: 0; } 59.38% { transform: scale(0.6); opacity: 1; } 62.68%, 100% { transform: scale(2.8); opacity: 0; } }
-    @keyframes g16 { 0%, 56.72% { opacity: 0; } 57.22%, 100% { opacity: 1; } }
+    @keyframes e52_4 { 0%, 60.03% { fill: #1c4f7a; } 60.24% { fill: #ffffff; } 60.94%, 99.00% { fill: #0b0f19; } 100% { fill: #1c4f7a; } }
+    @keyframes be52_4 { 0%, 60.03% { transform: scale(0.2); opacity: 0; } 60.24% { transform: scale(0.6); opacity: 1; } 63.54%, 100% { transform: scale(2.8); opacity: 0; } }
+    @keyframes e52_5 { 0%, 60.89% { fill: #1c4f7a; } 61.10% { fill: #ffffff; } 61.80%, 99.00% { fill: #0b0f19; } 100% { fill: #1c4f7a; } }
+    @keyframes be52_5 { 0%, 60.89% { transform: scale(0.2); opacity: 0; } 61.10% { transform: scale(0.6); opacity: 1; } 64.40%, 100% { transform: scale(2.8); opacity: 0; } }
+    @keyframes g18 { 0%, 55.87% { opacity: 0; } 56.37%, 100% { opacity: 1; } }
+    @keyframes g17 { 0%, 53.72% { opacity: 0; } 54.22%, 100% { opacity: 1; } }
+    @keyframes g16 { 0%, 53.29% { opacity: 0; } 53.79%, 100% { opacity: 1; } }
     @keyframes g15 { 0%, 52.85% { opacity: 0; } 53.35%, 100% { opacity: 1; } }
     @keyframes g14 { 0%, 52.42% { opacity: 0; } 52.92%, 100% { opacity: 1; } }
     @keyframes g13 { 0%, 51.98% { opacity: 0; } 52.48%, 100% { opacity: 1; } }
@@ -459,27 +465,32 @@
 <circle class="boom" cx="825.5" cy="93.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_2 8.50s linear infinite"/>
 <rect x="820" y="103" width="11" height="11" rx="2" fill="#2a7fc0" filter="url(#glow)" style="animation: e52_3 8.50s linear infinite"/>
 <circle class="boom" cx="825.5" cy="108.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_3 8.50s linear infinite"/>
-<rect x="820" y="118" width="11" height="11" rx="2" fill="#0b0f19" stroke="#16203a" stroke-width="0.6"/>
-<g class="seg" style="animation-delay: 0.574s; animation: crawl 8.50s linear infinite both, g16 8.50s linear infinite both; animation-delay: 0.574s"><circle r="1.2" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.538s; animation: crawl 8.50s linear infinite both, g15 8.50s linear infinite both; animation-delay: 0.538s"><circle r="1.5" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.502s; animation: crawl 8.50s linear infinite both, g14 8.50s linear infinite both; animation-delay: 0.502s"><circle r="1.8" fill="#8f1b1f" opacity="0.25" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.466s; animation: crawl 8.50s linear infinite both, g13 8.50s linear infinite both; animation-delay: 0.466s"><circle r="2.1" fill="#b8231a" opacity="0.28" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.430s; animation: crawl 8.50s linear infinite both, g12 8.50s linear infinite both; animation-delay: 0.430s"><circle r="2.5" fill="#b8231a" opacity="0.33" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.395s; animation: crawl 8.50s linear infinite both, g11 8.50s linear infinite both; animation-delay: 0.395s"><circle r="2.8" fill="#d6301a" opacity="0.39" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.359s; animation: crawl 8.50s linear infinite both, g10 8.50s linear infinite both; animation-delay: 0.359s"><circle r="3.1" fill="#f2421b" opacity="0.44" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.323s; animation: crawl 8.50s linear infinite both, g9 8.50s linear infinite both; animation-delay: 0.323s"><circle r="3.4" fill="#ff5a1f" opacity="0.50" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.287s; animation: crawl 8.50s linear infinite both, g8 8.50s linear infinite both; animation-delay: 0.287s"><circle r="3.7" fill="#ff5a1f" opacity="0.56" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.251s; animation: crawl 8.50s linear infinite both, g7 8.50s linear infinite both; animation-delay: 0.251s"><circle r="4.0" fill="#ff7a1a" opacity="0.61" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.215s; animation: crawl 8.50s linear infinite both, g6 8.50s linear infinite both; animation-delay: 0.215s"><circle r="4.3" fill="#ff9f1c" opacity="0.67" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.179s"><circle r="4.6" fill="#ffb347" opacity="0.72" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.143s"><circle r="5.0" fill="#ffb347" opacity="0.78" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.108s"><circle r="5.3" fill="#ffd166" opacity="0.83" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.072s"><circle r="5.6" fill="#fff1b0" opacity="0.89" filter="url(#glow)"/></g>
-<g class="seg" style="animation-delay: 0.036s"><circle r="5.9" fill="#fffbe8" opacity="0.94" filter="url(#glow)"/></g>
+<rect x="820" y="118" width="11" height="11" rx="2" fill="#1c4f7a" filter="url(#glow)" style="animation: e52_4 8.50s linear infinite"/>
+<circle class="boom" cx="825.5" cy="123.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_4 8.50s linear infinite"/>
+<rect x="820" y="133" width="11" height="11" rx="2" fill="#1c4f7a" filter="url(#glow)" style="animation: e52_5 8.50s linear infinite"/>
+<circle class="boom" cx="825.5" cy="138.5" r="7" fill="none" stroke="#ffb347" stroke-width="1.6" style="transform-box: fill-box; transform-origin: center; opacity: 0; animation: be52_5 8.50s linear infinite"/>
+<g class="seg" style="animation-delay: 0.646s; animation: crawl 8.50s linear infinite both, g18 8.50s linear infinite both; animation-delay: 0.646s"><circle r="1.2" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.610s; animation: crawl 8.50s linear infinite both, g17 8.50s linear infinite both; animation-delay: 0.610s"><circle r="1.5" fill="#6b1626" opacity="0.25" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.574s; animation: crawl 8.50s linear infinite both, g16 8.50s linear infinite both; animation-delay: 0.574s"><circle r="1.8" fill="#8f1b1f" opacity="0.25" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.538s; animation: crawl 8.50s linear infinite both, g15 8.50s linear infinite both; animation-delay: 0.538s"><circle r="2.0" fill="#8f1b1f" opacity="0.25" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.502s; animation: crawl 8.50s linear infinite both, g14 8.50s linear infinite both; animation-delay: 0.502s"><circle r="2.3" fill="#b8231a" opacity="0.30" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.466s; animation: crawl 8.50s linear infinite both, g13 8.50s linear infinite both; animation-delay: 0.466s"><circle r="2.6" fill="#d6301a" opacity="0.35" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.430s; animation: crawl 8.50s linear infinite both, g12 8.50s linear infinite both; animation-delay: 0.430s"><circle r="2.9" fill="#d6301a" opacity="0.40" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.395s; animation: crawl 8.50s linear infinite both, g11 8.50s linear infinite both; animation-delay: 0.395s"><circle r="3.1" fill="#f2421b" opacity="0.45" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.359s; animation: crawl 8.50s linear infinite both, g10 8.50s linear infinite both; animation-delay: 0.359s"><circle r="3.4" fill="#ff5a1f" opacity="0.50" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.323s; animation: crawl 8.50s linear infinite both, g9 8.50s linear infinite both; animation-delay: 0.323s"><circle r="3.7" fill="#ff5a1f" opacity="0.55" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.287s; animation: crawl 8.50s linear infinite both, g8 8.50s linear infinite both; animation-delay: 0.287s"><circle r="4.0" fill="#ff7a1a" opacity="0.60" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.251s; animation: crawl 8.50s linear infinite both, g7 8.50s linear infinite both; animation-delay: 0.251s"><circle r="4.3" fill="#ff9f1c" opacity="0.65" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.215s; animation: crawl 8.50s linear infinite both, g6 8.50s linear infinite both; animation-delay: 0.215s"><circle r="4.5" fill="#ff9f1c" opacity="0.70" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.179s"><circle r="4.8" fill="#ffb347" opacity="0.75" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.143s"><circle r="5.1" fill="#ffd166" opacity="0.80" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.108s"><circle r="5.4" fill="#ffd166" opacity="0.85" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.072s"><circle r="5.6" fill="#fff1b0" opacity="0.90" filter="url(#glow)"/></g>
+<g class="seg" style="animation-delay: 0.036s"><circle r="5.9" fill="#fffbe8" opacity="0.95" filter="url(#glow)"/></g>
 <g class="seg" style="animation-delay: 0.000s"><circle r="6.2" fill="#fffbe8" opacity="1.00" filter="url(#glow)"/><circle r="11" fill="#ff9f1c" opacity="0.22"/><circle r="3.2" fill="#ffffff"/></g>
 <text class="k" x="835" y="189" text-anchor="end">ONE YEAR  //  EVERY CELL A DAY I SHIPPED</text>
-<text class="k" x="40" y="189">CONTRIBUTIONS</text><text class="v" x="40" y="208">172</text>
-<text class="k" x="158" y="189">TARGETS</text><text class="v" x="158" y="208">11</text>
-<text class="k" x="276" y="189">LONGEST RUN</text><text class="v" x="276" y="208">4 d</text>
-<text class="k" x="394" y="189">CURRENT RUN</text><text class="v" x="394" y="208">3 d</text>
+<text class="k" x="40" y="189">CONTRIBUTIONS</text><text class="v" x="40" y="208">174</text>
+<text class="k" x="158" y="189">TARGETS</text><text class="v" x="158" y="208">13</text>
+<text class="k" x="276" y="189">LONGEST RUN</text><text class="v" x="276" y="208">5 d</text>
+<text class="k" x="394" y="189">CURRENT RUN</text><text class="v" x="394" y="208">5 d</text>
 </g></svg>
